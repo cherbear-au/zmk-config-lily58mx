@@ -23,6 +23,53 @@
         combo_open_parenthesis {
             bindings = <&kp RS(N9)>;
             key-positions = <20 21>;
+            timeout-ms = <0>;
+            layers = <0>;
+        };
+
+        combo_close_parenthesis {
+            bindings = <&kp RS(N0)>;
+            key-positions = <21 22>;
+        };
+
+        combo_equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <19 20>;
+        };
+
+        combo_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <31 32>;
+        };
+
+        combo_underscore {
+            bindings = <&kp RS(MINUS)>;
+            key-positions = <45 46>;
+        };
+
+        combo_plus {
+            bindings = <&kp RS(EQUAL)>;
+            key-positions = <32 33>;
+        };
+
+        combo_exclamation {
+            bindings = <&kp RS(NUMBER_1)>;
+            key-positions = <13 14>;
+        };
+
+        combo_at {
+            bindings = <&kp RS(NUMBER_2)>;
+            key-positions = <14 15>;
+        };
+
+        combo_hash {
+            bindings = <&kp RS(NUMBER_3)>;
+            key-positions = <15 16>;
+        };
+
+        combo_dollar {
+            bindings = <&kp RS(NUMBER_4)>;
+            key-positions = <16 17>;
         };
     };
 
