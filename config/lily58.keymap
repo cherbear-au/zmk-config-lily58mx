@@ -17,6 +17,15 @@
 #define extra_layer 4
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        combo_open_parenthesis {
+            bindings = <&kp RS(N9)>;
+            key-positions = <20 21>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
